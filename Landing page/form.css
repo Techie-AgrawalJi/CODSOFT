@@ -1,0 +1,71 @@
+.form {
+  background-color: #460101b3;
+  color: white;
+  border-radius: 20px;
+  margin: auto;
+  font-size: 30px;
+  width: 80vw;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+label,
+input,
+textarea {
+  width: 100%;
+  display: block;
+}
+.items {
+  padding: 15px;
+  color: white;
+  width: 40%;
+}
+
+.text {
+  width: 100%;
+  font-size: 40px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  overflow: auto;
+}
+
+input,
+textarea {
+  background-color: rgba(14, 93, 113, 0.6);
+  border-radius: 10px;
+  margin: 5px 0;
+  height: 40px;
+  font-size: 25px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+#name{
+  text-transform: capitalize;
+}
+input::placeholder,textarea::placeholder {
+  color: rgb(186, 177, 216);
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+}
+input{
+  margin:  25px 0;
+}
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+#submitbtn {
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgba(248, 73, 14, 0.6);
+  border-radius: 10px;
+  margin: auto;
+  width: fit-content;
+  color: black;
+  font-weight: 600;
+}

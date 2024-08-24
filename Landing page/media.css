@@ -1,0 +1,152 @@
+@media screen and (orientation: portrait) {
+
+  .left,
+  .right,
+  .header,
+  .options {
+    font-size: 25px;
+  }
+
+  .contain {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form {
+    width: 90vw;
+  }
+
+  .details {
+    display: block;
+  }
+
+  .Gfather,
+  .father {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .contain>.text {
+    font-size: 30px;
+    overflow: auto;
+
+  }
+
+  .contain {
+    font-size: 30px;
+  }
+
+  #submitbtn {
+    font-size: 25px;
+  }
+
+  .Gfather,
+  .father {
+    padding: 0;
+  }
+
+  .contain>.items {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+  .left,
+  .right,
+  .header,
+  .options {
+    font-size: 30px;
+  }
+
+  .Gfather,
+  .father {
+    align-items: center;
+    padding: 0;
+  }
+
+  .Gfatherimg,
+  .fatherimg {
+    height: 60%;
+    width: 25%;
+  }
+
+  .abtfather {
+    height: 80%;
+  }
+
+  .text {
+    font-size: 25px;
+  }
+
+  .contain>.items {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .email {
+
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer .heading{
+    width: 40%;
+  }
+  .email {
+    display: block;
+  }
+
+  .has .email span {
+    display: block;
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  .Gfatherimg,
+  .fatherimg {
+    height: 40%;
+    width: 30%;
+  }
+
+  .left,
+  .right,
+  .options {
+    font-size: 20px;
+  }
+
+  .content {
+    margin-top: none;
+  }
+
+  .options {
+    font-size: 20px;
+    margin-top: 40px;
+  }
+
+  .contain>.items {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .inputs input::placeholder {
+    font-size: 20px;
+  }
+
+  .inputs input {
+    height: auto;
+  }
+
+  .items #submitbtn {
+    font-size: 20px;
+  }
+
+  .contain>.text {
+    font-size: 20px;
+  }
+}

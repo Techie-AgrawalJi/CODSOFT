@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign in</title>
+</head>
+<link rel="stylesheet" href="LP.css" />
+<link rel="stylesheet" href="media.css" />
+<link rel="stylesheet" href="form.css" />
+<style>
+  .options {
+    grid-template-columns: repeat(2, 1fr);
+    width: 80vw;
+  }
+</style>
+
+<body>
+  <main>
+    <div class="nav">
+      <span class="header">Welcome to xyz Store</span>
+    </div>
+    <div class="options">
+      <span><a href="index.html"> Home</a></span>
+      <span><a href="view.html"> View</a></span>
+    </div>
+    <div class="formdiv">
+      <div class="form">
+        <div class="contain">
+          <div class="text">We welcome you as our valued customer! Enjoy top-quality products at affordable prices.
+            Please register now by filling out the form.
+          </div>
+          <div class="items">
+            <form method="post" class="inputs" onsubmit=" reset(); return false;">
+              <!-- <label for="name" id="name_label"> Name -->
+                <input type="text" id="name" placeholder="Your Name"  autofocus />
+              <!-- <label for="email" id="email_label"> Email -->
+                <input type="email" id="email" placeholder="Your email" />
+              <!-- <label for="number" id="number_label"> Contact number -->
+                <input type="digits" id="number" placeholder="Your Phone Number"  />
+              <!-- <label for="address"> Address -->
+                <textarea for="Address" maxlength="100" id="address" placeholder="Your Address" ></textarea> 
+              <div class="submit">
+                <input type="submit" name="button_label" id="submitbtn" />
+              </div>
+            </from>
+          </div>
+        </div>
+    </div>
+    <div class="footer">
+      <div class="heading">Contact us</div>
+      <div class="has">
+        <div class="email">
+          <span><a href="mailto:xyz@gamil.com">xyz@gmail.com</a></span>
+          <span>+91 1234567890</span>
+          <span>+91 2345678910</span>
+        </div>
+      </div>
+    </div>
+    <div class="bgimg"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
